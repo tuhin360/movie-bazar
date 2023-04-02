@@ -2,7 +2,7 @@ import React from 'react';
 
 const SingleCart = ({movie, handleWatchTime}) => {
     // const {movie} = props;
-    console.log(movie);
+    // console.log(movie);
     return (
         <div>
             <div className="movie-card card text-center w-100 m-auto col-md-6">
