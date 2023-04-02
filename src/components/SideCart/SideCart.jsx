@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './SideCart.css'
 import { ToastContainer, toast } from 'react-toastify';
 
 
@@ -31,7 +32,7 @@ const SideCart = ({ watchTime }) => {
 
 
     return (
-        <div>
+        <div className='sideCard'>
             <h1>My Cart</h1>
 
             <div className="mt-5 text-center">
